@@ -36,7 +36,7 @@ public class WeakHashMapWrapper<K, V> implements Map<K,V> {
                 WeakReferenceWrapper<K,V> ref2 = (WeakReferenceWrapper<K,V>)ref;
                 V value = ref2.getValue();
                 if (value instanceof NDArray) {  // just as one example
-                    log.info("NDArray is being collected");
+                    log.info("NDArray is closed triggered by a message from the garbage collector");
                     ((NDArray)value).close();
                 }
             }
