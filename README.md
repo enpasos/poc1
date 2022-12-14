@@ -1,6 +1,6 @@
 # proof of concept 
 
-Closing DJL resource automatically when no more used.
+The DJL resource is automatically closed when it is no longer in use.
 
 ## build
 
