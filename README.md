@@ -26,7 +26,7 @@ Example output:
 [main] INFO com.enpasos.solution.Main - no reference exists, but likely not yet garbage collected ...
 [main] INFO com.enpasos.solution.Main - is the weakHashMap empty: false
 [main] INFO com.enpasos.solution.Main - no reference exists, and likely garbage collected ...
-[main] INFO com.enpasos.solution.WeakHashMapWrapper - NDArray is being collected
+[main] INFO com.enpasos.solution.WeakHashMapWrapper - NDArray is closed triggered by a message from the garbage collector
 [main] INFO com.enpasos.solution.Main - is the weakHashMap empty: true
 \--- NDManager(1cc84121325a, gpu(0)) resource count: 1
     \--- NDManager(ffe917c627a8, gpu(0)) resource count: 0
